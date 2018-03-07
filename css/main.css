@@ -1,0 +1,13 @@
+/* Note that the display property for HTML5 elements is already accounted for in normalize.min.css, so that rule is omitted here. */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    border: 0;
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
