@@ -1,6 +1,24 @@
 /* Note that the display property for HTML5 elements is already accounted for in normalize.min.css, so that rule is omitted here. */
+@font-face {
+    font-family: 'Franklin Gothic';
+    src: url('font/franklin-gothic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Victory Comics Condensed';
+    src: url('font/victory-comics-condensed.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Victory Comics Semi';
+    src: url('font/victory-comics-semi.ttf') format('truetype');
+}
+
 html {
+    background-color: #e4eff3;
     box-sizing: border-box;
+    color: #1a1919;
+    font-family: 'Franklin Gothic', sans-serif;
 }
 
 *,
@@ -10,4 +28,27 @@ html {
     box-sizing: inherit;
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    font-family: 'Victory Comics Condensed', sans-serif;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Victory Comics Semi', sans-serif;
+}
+
+a,
+a:visited {
+    color: #b74900;
+}
+
+button {
+    background-color: #ff7904;
+    color: #1a1919;
+    font-family: 'Victory Comics Semi', sans-serif;
 }
