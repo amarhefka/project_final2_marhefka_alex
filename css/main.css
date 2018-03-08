@@ -31,11 +31,15 @@ html {
 }
 
 h1 {
+    background: url('../img/metal-pattern1.jpg') center/cover;
     font: 2.7rem 'Victory Comics Condensed', sans-serif;
+    margin: 1.5rem 0;
+    padding: 2rem 0;
 }
 
 h2 {
     font: 1.9rem 'Victory Comics Semi', sans-serif;
+    margin-bottom: 0.5rem;
 }
 
 a,
@@ -52,9 +56,9 @@ button {
         linear-gradient(90deg, rgba(26,25,25,1) 6%, rgba(26,25,25,0) 6%, rgba(26,25,25,0) 94.5%, rgba(26,25,25,1) 94.5%) center/cover #ff6904;
     color: #1a1919;
     display: block;
-    font-family: 'Victory Comics Semi', sans-serif;
+    font: 1.7rem 'Victory Comics Semi', sans-serif;
     margin: 1rem auto;
-    padding: 2.3rem 4.8rem 2.1rem;
+    padding: 2.1rem 3rem;
 }
 
 img {
@@ -67,12 +71,6 @@ header {
     max-width: 1600px;
 }
 
-header h1 {
-    background: url('../img/metal-pattern1.jpg') center/cover;
-    margin: 1.5rem 0;
-    padding: 2rem 0;
-}
-
 #logo {
     padding: 1.5rem 1.5rem 0;
     max-width: 400px;
@@ -82,4 +80,14 @@ main {
     margin: 0 auto;
     max-width: 1600px;
     padding: 0 4%;
+}
+
+p {
+    line-height: 1.4rem;
+    letter-spacing: 0.01rem;
+}
+
+p + p,
+img + img {
+    margin-top: 0.5rem;
 }
