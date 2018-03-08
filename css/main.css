@@ -95,6 +95,7 @@ button:active {
 }
 
 img {
+    margin-bottom: 0.5rem;
     width: 100%;
 }
 
@@ -111,7 +112,7 @@ header {
 
 main {
     margin: 0 auto;
-    max-width: 1600px;
+    max-width: 1280px;
     padding: 0 4%;
 }
 
@@ -120,17 +121,48 @@ p {
     letter-spacing: 0.01rem;
 }
 
-p + p,
-img + img {
+p + p {
     margin-top: 0.5rem;
 }
 
 footer {
     background: url('../img/tiger-pattern3.jpg') center/cover;
+    clear: both;
     color: #fcf7fe;
-    margin: 0.5rem auto 0;
+    margin: 0 auto;
     max-width: 2560px;
     padding: 1.5rem 0 1.4rem;
     text-align: center;
-    text-shadow: 0.05em 0 30px #010101, 0 0.05em 30px #010101, -0.05em 0 30px #010101, 0 -0.05em 30px #010101, -0.05em -0.05em 30px #010101, -0.05em 0.05em 30px #010101, 0.05em -0.05em 30px #010101;
+    text-shadow: 0.05em 0 30px #010101, 0 0.05em 30px #010101, 0 -0.05em 30px #010101, -0.05em -0.05em 30px #010101, -0.05em 0.05em 30px #010101, 0.05em -0.05em 30px #010101;
+}
+
+/* Media Queries */
+
+/* First Breakpoint: 950+ px */
+@media (min-width: 950px) {
+
+    section {
+        float: left;
+        padding: 0 2rem;
+        width: 50%;
+    }
+
+    section + section {
+        float: right;
+    }
+
+    main {
+        padding: 0;
+    }
+
+}
+
+/* Second Breakpoint: 1150+ px */
+
+@media (min-width: 1150px) {
+
+    html {
+        font-size: 1.1em;
+    }
+
 }
