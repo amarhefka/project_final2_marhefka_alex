@@ -43,8 +43,19 @@ h2 {
 }
 
 a,
+a:link,
 a:visited {
     color: #b74900;
+}
+
+a:focus,
+a:hover {
+    color: #116d8c;
+    outline: none;
+}
+
+a:active {
+    text-decoration: none;
 }
 
 button {
@@ -57,8 +68,19 @@ button {
     color: #1a1919;
     display: block;
     font: 1.7rem 'Victory Comics Semi', sans-serif;
-    margin: 1rem auto;
+    margin: 1.5rem auto;
     padding: 2.1rem 3rem;
+}
+
+button:focus,
+button:hover {
+    background:
+        linear-gradient(135deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%) top/0.75rem 0.75rem repeat-x,
+        linear-gradient(-135deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%) top/0.75rem 0.75rem repeat-x,
+        linear-gradient(45deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%) bottom/0.75rem 0.75rem repeat-x,
+        linear-gradient(-45deg, rgba(255,255,255,1) 50%, rgba(255,255,255,0) 50%) bottom/0.75rem 0.75rem repeat-x,
+        linear-gradient(90deg, rgba(26,25,25,1) 6%, rgba(26,25,25,0) 6%, rgba(26,25,25,0) 94.5%, rgba(26,25,25,1) 94.5%) center/cover #98dbf1;
+    outline: none;
 }
 
 img {
