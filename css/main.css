@@ -31,7 +31,7 @@ html {
 }
 
 h1 {
-    font-family: 'Victory Comics Condensed', sans-serif;
+    font: 2.7rem 'Victory Comics Condensed', sans-serif;
 }
 
 h2,
@@ -51,4 +51,22 @@ button {
     background-color: #ff7904;
     color: #1a1919;
     font-family: 'Victory Comics Semi', sans-serif;
+}
+
+img {
+    max-width: 1600px;
+    width: 100%;
+}
+
+header {
+    padding: 4% 4% 0;
+    text-align: center;
+}
+
+#logo {
+    max-width: 400px;
+}
+
+main {
+    padding: 0 4%;
 }
