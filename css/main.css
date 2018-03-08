@@ -101,7 +101,7 @@ img {
 header {
     text-align: center;
     margin: 0 auto;
-    max-width: 1600px;
+    max-width: 2560px;
 }
 
 #logo {
@@ -123,4 +123,14 @@ p {
 p + p,
 img + img {
     margin-top: 0.5rem;
+}
+
+footer {
+    background: url('../img/tiger-pattern3.jpg') center/cover;
+    color: #fcf7fe;
+    margin: 0.5rem auto 0;
+    max-width: 2560px;
+    padding: 1.5rem 0 1.4rem;
+    text-align: center;
+    text-shadow: 0.05em 0 30px #010101, 0 0.05em 30px #010101, -0.05em 0 30px #010101, 0 -0.05em 30px #010101, -0.05em -0.05em 30px #010101, -0.05em 0.05em 30px #010101, 0.05em -0.05em 30px #010101;
 }
