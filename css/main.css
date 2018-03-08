@@ -70,7 +70,7 @@ button {
     display: block;
     font: 1.7rem 'Victory Comics Semi', sans-serif;
     margin: 1.5rem auto;
-    padding: 2.1rem 3rem;
+    padding: 2.1rem 3.05rem;
 }
 
 button:focus,
@@ -157,12 +157,16 @@ footer {
 
 }
 
-/* Second Breakpoint: 1150+ px */
+/* Second Breakpoint: 1280+ px */
 
-@media (min-width: 1150px) {
+@media (min-width: 1280px) {
 
     html {
-        font-size: 1.1em;
+        font-size: 1.25em;
+    }
+
+    button {
+        padding: 2rem 2.6rem;
     }
 
 }
